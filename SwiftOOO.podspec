@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   This CocoaPods library helps you perform calculation.
                    DESC
 
-  spec.homepage     = "https://github.com/ssowri1/SwiftOOO/tree/master"
+  spec.homepage     = "https://github.com/ssowri1/SwiftOOO"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -77,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/ssowri1/SwiftOOO/tree/master.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/ssowri1/SwiftOOO.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
