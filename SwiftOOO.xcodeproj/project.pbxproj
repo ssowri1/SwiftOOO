@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		00E2B7D52500150B003B4D5A /* SwiftOOO.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E2B7D32500150B003B4D5A /* SwiftOOO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00E2B7DC250016EC003B4D5A /* SwoiftOOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2B7DB250016EC003B4D5A /* SwoiftOOO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00E2B7D02500150B003B4D5A /* SwiftOOO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftOOO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E2B7D32500150B003B4D5A /* SwiftOOO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftOOO.h; sourceTree = "<group>"; };
 		00E2B7D42500150B003B4D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E2B7DB250016EC003B4D5A /* SwoiftOOO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwoiftOOO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				00E2B7D32500150B003B4D5A /* SwiftOOO.h */,
+				00E2B7DB250016EC003B4D5A /* SwoiftOOO.swift */,
 				00E2B7D42500150B003B4D5A /* Info.plist */,
 			);
 			path = SwiftOOO;
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					00E2B7CF2500150B003B4D5A = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E2B7DC250016EC003B4D5A /* SwoiftOOO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		00E2B7D92500150B003B4D5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -275,14 +281,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = swift.SwiftOOO;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		00E2B7DA2500150B003B4D5A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -298,8 +307,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = swift.SwiftOOO;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
