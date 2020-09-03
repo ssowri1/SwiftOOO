@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		00546CF3250149AB00F8CA9F /* Gauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00546CF1250149AB00F8CA9F /* Gauge.swift */; };
 		00546CF4250149AB00F8CA9F /* Gauge.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00546CF2250149AB00F8CA9F /* Gauge.xib */; };
+		00546D0025015AEF00F8CA9F /* Loader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00546CFD25015AEE00F8CA9F /* Loader.xib */; };
+		00546D0125015AEF00F8CA9F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 00546CFE25015AEE00F8CA9F /* index.html */; };
+		00546D0225015AEF00F8CA9F /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00546CFF25015AEE00F8CA9F /* Loader.swift */; };
 		00E2B7D52500150B003B4D5A /* SwiftOOO.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E2B7D32500150B003B4D5A /* SwiftOOO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00E2B7DC250016EC003B4D5A /* SwoiftOOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2B7DB250016EC003B4D5A /* SwoiftOOO.swift */; };
 /* End PBXBuildFile section */
@@ -16,6 +19,9 @@
 /* Begin PBXFileReference section */
 		00546CF1250149AB00F8CA9F /* Gauge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gauge.swift; sourceTree = "<group>"; };
 		00546CF2250149AB00F8CA9F /* Gauge.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Gauge.xib; sourceTree = "<group>"; };
+		00546CFD25015AEE00F8CA9F /* Loader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Loader.xib; sourceTree = "<group>"; };
+		00546CFE25015AEE00F8CA9F /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		00546CFF25015AEE00F8CA9F /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		00E2B7D02500150B003B4D5A /* SwiftOOO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftOOO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E2B7D32500150B003B4D5A /* SwiftOOO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftOOO.h; sourceTree = "<group>"; };
 		00E2B7D42500150B003B4D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				00E2B7D32500150B003B4D5A /* SwiftOOO.h */,
+				00546CFE25015AEE00F8CA9F /* index.html */,
+				00546CFF25015AEE00F8CA9F /* Loader.swift */,
+				00546CFD25015AEE00F8CA9F /* Loader.xib */,
 				00E2B7DB250016EC003B4D5A /* SwoiftOOO.swift */,
 				00546CF1250149AB00F8CA9F /* Gauge.swift */,
 				00546CF2250149AB00F8CA9F /* Gauge.xib */,
@@ -131,6 +140,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00546D0125015AEF00F8CA9F /* index.html in Resources */,
+				00546D0025015AEF00F8CA9F /* Loader.xib in Resources */,
 				00546CF4250149AB00F8CA9F /* Gauge.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +155,7 @@
 			files = (
 				00E2B7DC250016EC003B4D5A /* SwoiftOOO.swift in Sources */,
 				00546CF3250149AB00F8CA9F /* Gauge.swift in Sources */,
+				00546D0225015AEF00F8CA9F /* Loader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
