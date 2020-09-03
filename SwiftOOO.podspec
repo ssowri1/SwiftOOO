@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "SwiftOOO"
-spec.version      = "0.1"
+spec.version      = "0.2"
 spec.summary      = "A CocoaPods library written in Swift."
 
 spec.description  = <<-DESC
@@ -25,7 +25,7 @@ spec.swift_version = "4.2"
 
 spec.source       = { :git => "https://github.com/ssowri1/SwiftOOO.git", :tag => "#{spec.version}" }
 
-spec.source_files  = "SwiftOOO/**/*.{h,m,swift}"
+spec.source_files  = "SwiftOOO/**/*.{h,m,swift,json,html,xib}"
 
 spec.dependency "SwiftLint"
 spec.dependency "Zip"
