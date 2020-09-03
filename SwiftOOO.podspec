@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "SwiftOOO"
-spec.version      = "0.0.9"
+spec.version      = "0.1"
 spec.summary      = "A CocoaPods library written in Swift."
 
 spec.description  = <<-DESC
@@ -29,6 +29,5 @@ spec.source_files  = "SwiftOOO/**/*.{h,m,swift}"
 
 spec.dependency "SwiftLint"
 spec.dependency "Zip"
-
 
 end
