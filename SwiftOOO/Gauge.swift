@@ -8,15 +8,15 @@
 
 import UIKit
 
-class Gauge: UIView {
+open class Gauge: UIView {
     
-    class func addGauge() {
+    static func addGauge() {
         let vwGauge = Gauge.instanceFromNib()
         UIApplication.shared.keyWindow?.window?.addSubview(vwGauge)
     }
 
     // To make the link between xib of the view and Swift class
-    class func instanceFromNib() -> UIView {
+    static func instanceFromNib() -> UIView {
         return UINib(nibName: "Gauge", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! UIView
     }
 }
