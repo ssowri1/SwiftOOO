@@ -27,8 +27,8 @@ spec.source       = { :git => "https://github.com/ssowri1/SwiftOOO.git", :tag =>
 
 spec.source_files  = "SwiftOOO/**/*.{h,m,swift}"
 
-spec.dependency "JSONKit", "~> 1.4"
-spec.dependency "Zip", "~> 1.1"
+spec.dependency "SwiftLint"
+spec.dependency "Zip"
 
 
 end
