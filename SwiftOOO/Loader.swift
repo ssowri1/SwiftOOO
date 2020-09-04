@@ -25,8 +25,8 @@ class Loader: UIView {
     private func commonInit() {
         let bundle = Bundle(for: Loader.self)
         bundle.loadNibNamed("Loader", owner: self, options: nil)
-        addSubview(contentView)
         contentView.frame = CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height)
+        addSubview(contentView)
     }
     func startAnimating() {
         let webview = WKWebView()

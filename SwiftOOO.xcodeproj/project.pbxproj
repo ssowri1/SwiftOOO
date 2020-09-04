@@ -39,6 +39,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0053E06E2502972E000FC490 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				00546CFE25015AEE00F8CA9F /* index.html */,
+				00546CFD25015AEE00F8CA9F /* Loader.xib */,
+				00546CF2250149AB00F8CA9F /* Gauge.xib */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		00E2B7C62500150A003B4D5A = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +68,11 @@
 		00E2B7D22500150B003B4D5A /* SwiftOOO */ = {
 			isa = PBXGroup;
 			children = (
+				0053E06E2502972E000FC490 /* Resource */,
 				00E2B7D32500150B003B4D5A /* SwiftOOO.h */,
-				00546CFE25015AEE00F8CA9F /* index.html */,
 				00546CFF25015AEE00F8CA9F /* Loader.swift */,
-				00546CFD25015AEE00F8CA9F /* Loader.xib */,
 				00E2B7DB250016EC003B4D5A /* SwoiftOOO.swift */,
 				00546CF1250149AB00F8CA9F /* Gauge.swift */,
-				00546CF2250149AB00F8CA9F /* Gauge.xib */,
 				00E2B7D42500150B003B4D5A /* Info.plist */,
 			);
 			path = SwiftOOO;

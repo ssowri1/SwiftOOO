@@ -12,6 +12,7 @@ open class Gauge: UIView {
     
     static func addGauge() {
         let vwGauge = Gauge.instanceFromNib()
+        print("Done Almost!")
         UIApplication.shared.keyWindow?.window?.addSubview(vwGauge)
     }
 
