@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004E73982503EE3600EE07F1 /* LoadHtml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E73972503EE3600EE07F1 /* LoadHtml.swift */; };
 		0053E070250298D1000FC490 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053E06F250298D1000FC490 /* ViewController.swift */; };
 		0053E072250298DD000FC490 /* OOO.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0053E071250298DD000FC490 /* OOO.storyboard */; };
 		0053E07D25029D38000FC490 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053E07C25029D38000FC490 /* Manager.swift */; };
@@ -15,10 +16,10 @@
 		00546D0125015AEF00F8CA9F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 00546CFE25015AEE00F8CA9F /* index.html */; };
 		00546D0225015AEF00F8CA9F /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00546CFF25015AEE00F8CA9F /* Loader.swift */; };
 		00E2B7D52500150B003B4D5A /* SwiftOOO.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E2B7D32500150B003B4D5A /* SwiftOOO.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		00E2B7DC250016EC003B4D5A /* SwoiftOOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2B7DB250016EC003B4D5A /* SwoiftOOO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		004E73972503EE3600EE07F1 /* LoadHtml.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadHtml.swift; sourceTree = "<group>"; };
 		0053E06F250298D1000FC490 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0053E071250298DD000FC490 /* OOO.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OOO.storyboard; sourceTree = "<group>"; };
 		0053E07C25029D38000FC490 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		00E2B7D02500150B003B4D5A /* SwiftOOO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftOOO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E2B7D32500150B003B4D5A /* SwiftOOO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftOOO.h; sourceTree = "<group>"; };
 		00E2B7D42500150B003B4D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E2B7DB250016EC003B4D5A /* SwoiftOOO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwoiftOOO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,12 +74,12 @@
 				0053E06E2502972E000FC490 /* Resource */,
 				00E2B7D32500150B003B4D5A /* SwiftOOO.h */,
 				00546CFF25015AEE00F8CA9F /* Loader.swift */,
-				00E2B7DB250016EC003B4D5A /* SwoiftOOO.swift */,
 				00E2B7D42500150B003B4D5A /* Info.plist */,
 				0053E06F250298D1000FC490 /* ViewController.swift */,
 				0053E071250298DD000FC490 /* OOO.storyboard */,
 				0053E07E25029D72000FC490 /* ParentViewController.swift */,
 				0053E07C25029D38000FC490 /* Manager.swift */,
+				004E73972503EE3600EE07F1 /* LoadHtml.swift */,
 			);
 			path = SwiftOOO;
 			sourceTree = "<group>";
@@ -167,9 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E2B7DC250016EC003B4D5A /* SwoiftOOO.swift in Sources */,
 				0053E07F25029D72000FC490 /* ParentViewController.swift in Sources */,
 				0053E070250298D1000FC490 /* ViewController.swift in Sources */,
+				004E73982503EE3600EE07F1 /* LoadHtml.swift in Sources */,
 				00546D0225015AEF00F8CA9F /* Loader.swift in Sources */,
 				0053E07D25029D38000FC490 /* Manager.swift in Sources */,
 			);
