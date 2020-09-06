@@ -8,20 +8,39 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Test Controller-->
         <scene sceneID="Ffz-pA-4eX">
             <objects>
-                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BI4-fO-0Um" customClass="ViewController" customModule="SwiftOOO" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TestController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BI4-fO-0Um" customClass="TestController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eol-bm-TnZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="ocP-Bu-TMZ"/>
                     </view>
+                    <navigationItem key="navigationItem" id="jRt-4F-dfh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RmM-vM-0sc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="74" y="64"/>
+            <point key="canvasLocation" x="1894.2028985507247" y="63.616071428571423"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="I6n-xq-BLK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ycu-SL-foj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eUm-vb-kJL">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BI4-fO-0Um" kind="relationship" relationship="rootViewController" id="bM7-TF-xcw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sdv-6M-ksP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="984.05797101449286" y="63.616071428571423"/>
         </scene>
     </scenes>
 </document>

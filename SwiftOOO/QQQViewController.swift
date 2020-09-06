@@ -1,26 +1,25 @@
 //
-//  ParentViewController.swift
-//  Mapconfig
+//  ViewController.swift
+//  SwiftOOO
 //
-//  Created by Arunkumar Porchezhiyan on 28/07/20.
-//  Copyright © 2020 zvky. All rights reserved.
+//  Created by Sowrirajan S on 04/09/20.
+//  Copyright © 2020 com.ssowri1. All rights reserved.
 //
 
 import UIKit
 
-public class ParentViewController: UIViewController {
-    let loaderVw = Loader()
-    public override func viewDidLoad() {
+class QQQViewController: UIViewController {
+    let loaderVw = HLoader()
+    
+    override func viewDidLoad() {
         super.viewDidLoad()
+        callApi()
+        print("All are done")
     }
     /// This method is used to call the api
     func callApi() {
+        startAnimate()
     }
-}
-
-// MARK: - Activity Indicator
-extension ParentViewController {
-    /// This method is used to start the loader
     func startAnimate() {
         loaderVw.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height)
         self.loaderVw.center = self.view.center

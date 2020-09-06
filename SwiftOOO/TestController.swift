@@ -8,11 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    let loaderVw = Loader()
+class TestController: UIViewController {
+    let loaderVw = HLoader()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        startAnimate()
     }
     
     func startAnimate() {
@@ -21,11 +22,4 @@ class ViewController: UIViewController {
         self.view.addSubview(loaderVw)
         loaderVw.startAnimating()
     }
-
-    // To make the link between xib of the view and Swift class
-    static func instanceFromNib() -> UIView {
-        return UINib(nibName: "Gauge", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! UIView
-    }
 }
-
-

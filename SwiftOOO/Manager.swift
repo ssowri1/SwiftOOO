@@ -12,7 +12,13 @@ public class Manager {
     public init(){}
     
     public func viewController() -> UIViewController {
-        let VC = ViewController()
+        let VC = TestController()
         return VC
+    }
+    
+    public func pushToQQQ(viewC: UINavigationController) {
+        let sb = UIStoryboard.init(name: "OOO", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "TestController")
+        viewC.pushViewController(vc, animated: true)
     }
 }

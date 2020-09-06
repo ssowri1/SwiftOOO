@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "SwiftOOO"
-spec.version      = "0.8"
+spec.version      = "0.9"
 spec.summary      = "A CocoaPods library written in Swift."
 
 spec.description  = <<-DESC
@@ -20,15 +20,17 @@ spec.homepage     = "https://github.com/ssowri1/SwiftOOO"
 spec.license      = { :type => "MIT", :file => "LICENSE" }
 spec.author             = { "ssowri1" => "ssowri1@gmail.com" }
 
-spec.ios.deployment_target = "12.1"
+spec.ios.deployment_target = "10.0"
 spec.swift_version = "4.2"
 
 spec.source       = { :git => "https://github.com/ssowri1/SwiftOOO.git", :tag => "#{spec.version}" }
 
 spec.source_files  = "SwiftOOO/**/*.{h,m,swift}"
 
+spec.resources = "SwiftOOO/*.{storyboard,xib,html}"
+
 spec.resource_bundles = {
-"SwiftOOO" => ['SwiftOOO/Resource/**/*.{storyboard,xib}']
+    "SwiftOOO" => ['Pod/**/*.{storyboard,xib,html}']
 }
 
 end

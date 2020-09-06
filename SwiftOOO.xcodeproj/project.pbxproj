@@ -7,26 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		004E73982503EE3600EE07F1 /* LoadHtml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E73972503EE3600EE07F1 /* LoadHtml.swift */; };
-		0053E070250298D1000FC490 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053E06F250298D1000FC490 /* ViewController.swift */; };
-		0053E072250298DD000FC490 /* OOO.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0053E071250298DD000FC490 /* OOO.storyboard */; };
-		0053E07D25029D38000FC490 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053E07C25029D38000FC490 /* Manager.swift */; };
-		0053E07F25029D72000FC490 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053E07E25029D72000FC490 /* ParentViewController.swift */; };
-		00546D0025015AEF00F8CA9F /* Loader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00546CFD25015AEE00F8CA9F /* Loader.xib */; };
-		00546D0125015AEF00F8CA9F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 00546CFE25015AEE00F8CA9F /* index.html */; };
-		00546D0225015AEF00F8CA9F /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00546CFF25015AEE00F8CA9F /* Loader.swift */; };
+		004DE8652504BCCE004BACE2 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004DE85F2504BCCD004BACE2 /* Manager.swift */; };
+		004DE8662504BCCE004BACE2 /* OOO.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004DE8602504BCCE004BACE2 /* OOO.storyboard */; };
+		004DE8682504BCCE004BACE2 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004DE8622504BCCE004BACE2 /* TestController.swift */; };
+		004DE8842505263F004BACE2 /* SwiftOOOController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004DE88225052634004BACE2 /* SwiftOOOController.framework */; };
+		004DE8852505263F004BACE2 /* SwiftOOOController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 004DE88225052634004BACE2 /* SwiftOOOController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		00E2B7D52500150B003B4D5A /* SwiftOOO.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E2B7D32500150B003B4D5A /* SwiftOOO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		004DE8862505263F004BACE2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				004DE8852505263F004BACE2 /* SwiftOOOController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		004E73972503EE3600EE07F1 /* LoadHtml.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadHtml.swift; sourceTree = "<group>"; };
-		0053E06F250298D1000FC490 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0053E071250298DD000FC490 /* OOO.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OOO.storyboard; sourceTree = "<group>"; };
-		0053E07C25029D38000FC490 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
-		0053E07E25029D72000FC490 /* ParentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
-		00546CFD25015AEE00F8CA9F /* Loader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Loader.xib; sourceTree = "<group>"; };
-		00546CFE25015AEE00F8CA9F /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		00546CFF25015AEE00F8CA9F /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		004DE85F2504BCCD004BACE2 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		004DE8602504BCCE004BACE2 /* OOO.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OOO.storyboard; sourceTree = "<group>"; };
+		004DE8622504BCCE004BACE2 /* TestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
+		004DE88225052634004BACE2 /* SwiftOOOController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftOOOController.framework; sourceTree = "<group>"; };
 		00E2B7D02500150B003B4D5A /* SwiftOOO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftOOO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E2B7D32500150B003B4D5A /* SwiftOOO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftOOO.h; sourceTree = "<group>"; };
 		00E2B7D42500150B003B4D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,21 +44,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004DE8842505263F004BACE2 /* SwiftOOOController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0053E06E2502972E000FC490 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				00546CFE25015AEE00F8CA9F /* index.html */,
-				00546CFD25015AEE00F8CA9F /* Loader.xib */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
 		00E2B7C62500150A003B4D5A = {
 			isa = PBXGroup;
 			children = (
@@ -71,15 +70,12 @@
 		00E2B7D22500150B003B4D5A /* SwiftOOO */ = {
 			isa = PBXGroup;
 			children = (
-				0053E06E2502972E000FC490 /* Resource */,
+				004DE88225052634004BACE2 /* SwiftOOOController.framework */,
+				004DE85F2504BCCD004BACE2 /* Manager.swift */,
+				004DE8602504BCCE004BACE2 /* OOO.storyboard */,
+				004DE8622504BCCE004BACE2 /* TestController.swift */,
 				00E2B7D32500150B003B4D5A /* SwiftOOO.h */,
-				00546CFF25015AEE00F8CA9F /* Loader.swift */,
 				00E2B7D42500150B003B4D5A /* Info.plist */,
-				0053E06F250298D1000FC490 /* ViewController.swift */,
-				0053E071250298DD000FC490 /* OOO.storyboard */,
-				0053E07E25029D72000FC490 /* ParentViewController.swift */,
-				0053E07C25029D38000FC490 /* Manager.swift */,
-				004E73972503EE3600EE07F1 /* LoadHtml.swift */,
 			);
 			path = SwiftOOO;
 			sourceTree = "<group>";
@@ -106,6 +102,7 @@
 				00E2B7CC2500150B003B4D5A /* Sources */,
 				00E2B7CD2500150B003B4D5A /* Frameworks */,
 				00E2B7CE2500150B003B4D5A /* Resources */,
+				004DE8862505263F004BACE2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,9 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00546D0125015AEF00F8CA9F /* index.html in Resources */,
-				00546D0025015AEF00F8CA9F /* Loader.xib in Resources */,
-				0053E072250298DD000FC490 /* OOO.storyboard in Resources */,
+				004DE8662504BCCE004BACE2 /* OOO.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,11 +162,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0053E07F25029D72000FC490 /* ParentViewController.swift in Sources */,
-				0053E070250298D1000FC490 /* ViewController.swift in Sources */,
-				004E73982503EE3600EE07F1 /* LoadHtml.swift in Sources */,
-				00546D0225015AEF00F8CA9F /* Loader.swift in Sources */,
-				0053E07D25029D38000FC490 /* Manager.swift in Sources */,
+				004DE8652504BCCE004BACE2 /* Manager.swift in Sources */,
+				004DE8682504BCCE004BACE2 /* TestController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +300,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftOOO",
+				);
 				INFOPLIST_FILE = SwiftOOO/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -316,7 +312,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = swift.SwiftOOO;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.SwiftOOO.LoaderHtml;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -336,6 +332,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftOOO",
+				);
 				INFOPLIST_FILE = SwiftOOO/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -344,7 +344,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = swift.SwiftOOO;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.SwiftOOO.LoaderHtml;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;

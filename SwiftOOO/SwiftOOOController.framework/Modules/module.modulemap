@@ -1,0 +1,11 @@
+framework module SwiftOOOController {
+  umbrella header "SwiftOOOController.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftOOOController.Swift {
+    header "SwiftOOOController-Swift.h"
+    requires objc
+}
